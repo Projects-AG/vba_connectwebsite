@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  background-color: #F7F9FC;
+  color: #0B1E3D;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background-color: #DCE5F8;
+  color: #0B1E3D;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #3B5EDB;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #F7F9FC;
+}
+::-webkit-scrollbar-thumb {
+  background: #C7D3EE;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9BAEDD;
+}
+
+.font-display {
+  font-feature-settings: 'liga' 1, 'kern' 1;
+}
+
+.ledger-line {
+  background: linear-gradient(to bottom, transparent, #C7D3EE 10%, #C7D3EE 90%, transparent);
+}
