@@ -1,10 +1,12 @@
 export default function HomeBanner() {
+  const bannerSrc = new URL('/Banner.png', import.meta.url).href
+
   return (
     <section className="relative overflow-hidden mt-[72px]">
       <div className="relative mx-auto max-w-full">
         <div className="relative h-[520px] sm:h-[620px] lg:h-[720px]">
           <img
-            src="public\Banner.png"
+            src={bannerSrc}
             alt="VBA full banner"
             loading="eager"
             decoding="sync"

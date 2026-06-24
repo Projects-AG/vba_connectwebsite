@@ -9,10 +9,12 @@ export default function PartyMasthead({ dark = false }) {
   const textColor = dark ? 'text-white' : 'text-ink-900'
   const subColor = dark ? 'text-mist-100/60' : 'text-ink-700/55'
 
+  const logoSrc = new URL('/Logo.png', import.meta.url).href
+
   return (
     <Link to="/" className="flex items-center gap-3 group" aria-label="Vanchit Bahujan Aaghadi home">
       <img
-        src="/Logo.png"
+        src={logoSrc}
         alt="Vanchit Bahujan Aaghadi logo"
         className="h-10 w-10 shrink-0 object-contain"
       />
