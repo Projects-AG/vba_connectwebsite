@@ -196,7 +196,7 @@ function NetworkLines() {
       preserveAspectRatio="xMidYMid slice"
       aria-hidden="true"
     >
-      <g stroke="#1E3A8A" strokeWidth="1" opacity="0.15">
+      <g stroke="#D35B09" strokeWidth="1" opacity="0.15">
         <line x1="100" y1="100" x2="350" y2="220" />
         <line x1="350" y1="220" x2="600" y2="120" />
         <line x1="600" y1="120" x2="880" y2="260" />
@@ -206,7 +206,7 @@ function NetworkLines() {
         <line x1="700" y1="520" x2="950" y2="430" />
         <line x1="600" y1="120" x2="750" y2="40" />
       </g>
-      <g fill="#3B5EDB">
+      <g fill="#F0782F">
         {[
           [100, 100], [350, 220], [600, 120], [880, 260],
           [420, 450], [1050, 180], [700, 520], [950, 430], [750, 40],

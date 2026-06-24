@@ -16,9 +16,10 @@ export default function PrivacyPolicy() {
           </p>
           <p>
             This Privacy Policy explains how Vanchit Bahujan Aaghadi ("VBA",
-            "Party", "we", "our", or "us") collects, uses, stores, protects,
-            and manages information provided through VBA Connect, including
-            the website, mobile application, and associated digital services.
+            "Party", "we", "our", or "us") collects, uses, stores,
+            protects, and manages information provided through VBA Connect,
+            including the website, mobile application, and associated digital
+            services.
           </p>
           <p>By registering or using VBA Connect, you agree to this Privacy Policy.</p>
         </LegalSection>
@@ -31,12 +32,12 @@ export default function PrivacyPolicy() {
             <li><span className="font-semibold text-ink-900">Country:</span> India</li>
             <li>
               <span className="font-semibold text-ink-900">Registered Office Address:</span>{' '}
-              <PlaceholderNote>Address to be added</PlaceholderNote>
+              <PlaceholderNote>Insert VBA Registered Address</PlaceholderNote>
             </li>
             <li><span className="font-semibold text-ink-900">Official Email:</span> support@vbaconnect.in</li>
             <li>
               <span className="font-semibold text-ink-900">Official Contact:</span>{' '}
-              <PlaceholderNote>Phone number to be added</PlaceholderNote>
+              <PlaceholderNote>Insert Contact Number</PlaceholderNote>
             </li>
           </ul>
         </LegalSection>
@@ -46,15 +47,22 @@ export default function PrivacyPolicy() {
 
           <p className="font-semibold text-ink-900 mt-4">Personal Information</p>
           <ul className="list-disc pl-5 space-y-1">
-            <li>Full name, mobile number, email address</li>
-            <li>Date of birth / age, gender, address</li>
-            <li>State, district, taluka, and constituency details</li>
-            <li>Membership and volunteer information</li>
+            <li>Full Name</li>
+            <li>Mobile Number</li>
+            <li>Email Address</li>
+            <li>Date of Birth / Age</li>
+            <li>Gender</li>
+            <li>Address</li>
+            <li>State, District, Taluka, Constituency Details</li>
+            <li>Membership Information</li>
+            <li>Volunteer Information</li>
           </ul>
 
           <p className="font-semibold text-ink-900 mt-4">Account Information</p>
           <ul className="list-disc pl-5 space-y-1">
-            <li>Login credentials, user role, access permissions</li>
+            <li>Login credentials</li>
+            <li>User role</li>
+            <li>Access permissions</li>
             <li>Account activity details</li>
           </ul>
 
@@ -62,36 +70,48 @@ export default function PrivacyPolicy() {
           <p>Where required: identity verification details, membership verification records, registration information.</p>
 
           <p className="font-semibold text-ink-900 mt-4">Payment & Contribution Information</p>
-          <p>For membership fees, donations, or contributions: payment amount, transaction reference number, payment date & time, payment confirmation status, and receipt details.</p>
+          <ul className="list-disc pl-5 space-y-1">
+            <li>Payment Amount</li>
+            <li>Transaction Reference Number</li>
+            <li>Payment Date &amp; Time</li>
+            <li>Payment Confirmation Status</li>
+            <li>Receipt Details</li>
+          </ul>
 
-          <p className="mt-4">VBA Connect does <span className="font-semibold text-ink-900">not</span> collect or store UPI PINs, banking passwords, card PINs, or internet banking credentials.</p>
+          <p className="mt-4">VBA Connect does not collect or store UPI PIN, banking passwords, card PIN, or internet banking credentials.</p>
         </LegalSection>
 
         <LegalSection number="04" title="Purpose of Data Collection">
           <p>Information collected through VBA Connect may be used for:</p>
           <ul className="list-disc pl-5 space-y-1.5">
-            <li>Member registration, management, and verification</li>
-            <li>Maintaining organizational records and volunteer coordination</li>
-            <li>Communication with members and sending important party updates</li>
+            <li>Member registration and management</li>
+            <li>Membership verification</li>
+            <li>Maintaining organizational records</li>
+            <li>Volunteer coordination</li>
+            <li>Communication with members</li>
+            <li>Sending important party updates</li>
             <li>Event and activity coordination</li>
             <li>Payment and donation confirmation</li>
-            <li>Internal administration and security monitoring</li>
+            <li>Internal administration</li>
+            <li>Security monitoring</li>
             <li>Legal and regulatory compliance</li>
           </ul>
         </LegalSection>
 
         <LegalSection number="05" title="Payment & Contribution Data">
           <p>
-            Payments made through VBA Connect are processed through
-            authorized banking and payment systems. Payment records may be
-            maintained for transaction verification, receipt generation,
-            accounting purposes, audit requirements, and compliance with
-            applicable laws.
+            Payments made through VBA Connect are processed through authorized
+            banking/payment systems.
           </p>
-          <p>
-            Financial contributions are subject to applicable rules and
-            regulations governing political contributions in India.
-          </p>
+          <p>Payment records may be maintained for:</p>
+          <ul className="list-disc pl-5 space-y-1.5">
+            <li>Transaction verification</li>
+            <li>Receipt generation</li>
+            <li>Accounting purposes</li>
+            <li>Audit requirements</li>
+            <li>Compliance with applicable laws</li>
+          </ul>
+          <p>Financial contributions shall be subject to applicable rules and regulations governing political contributions in India.</p>
         </LegalSection>
 
         <LegalSection number="06" title="Data Sharing Policy">
@@ -100,26 +120,46 @@ export default function PrivacyPolicy() {
           <ul className="list-disc pl-5 space-y-1.5">
             <li>Authorized VBA administrators</li>
             <li>Approved technology service providers</li>
-            <li>Payment / banking service providers</li>
-            <li>Government or legal authorities, where required by law</li>
+            <li>Payment/banking service providers</li>
+            <li>Government or legal authorities where required by law</li>
           </ul>
         </LegalSection>
 
         <LegalSection number="07" title="Data Security">
-          <p>VBA Connect follows reasonable security practices including secure authentication, access control, database protection, technical monitoring, and ongoing security improvements.</p>
-          <p>Users are advised to keep their account credentials confidential.</p>
+          <p>VBA Connect follows reasonable security practices including secure authentication, access control, database protection, technical monitoring, and security improvements.</p>
+          <p>Users are advised to keep account credentials confidential.</p>
         </LegalSection>
 
         <LegalSection number="08" title="Communication Consent">
-          <p>By registering on VBA Connect, users agree to receive communication through phone calls, SMS, email, WhatsApp messages, and mobile notifications, for official party activities, membership updates, and organizational communication.</p>
+          <p>By registering on VBA Connect, users agree to receive communication through:</p>
+          <ul className="list-disc pl-5 space-y-1.5">
+            <li>Phone Calls</li>
+            <li>SMS</li>
+            <li>Email</li>
+            <li>WhatsApp Messages</li>
+            <li>Mobile Notifications</li>
+          </ul>
+          <p>for official party activities, membership updates, and organizational communication.</p>
         </LegalSection>
 
         <LegalSection number="09" title="User Rights">
-          <p>Users may request correction of inaccurate information, updates to personal details, or account-related assistance through official VBA communication channels.</p>
+          <p>Users may request:</p>
+          <ul className="list-disc pl-5 space-y-1.5">
+            <li>Correction of inaccurate information</li>
+            <li>Update of personal details</li>
+            <li>Account-related assistance</li>
+          </ul>
+          <p>Requests may be made through official VBA communication channels.</p>
         </LegalSection>
 
         <LegalSection number="10" title="Data Retention">
-          <p>User information may be retained as required for membership records, administrative purposes, legal obligations, and security requirements.</p>
+          <p>User information may be retained as required for:</p>
+          <ul className="list-disc pl-5 space-y-1.5">
+            <li>Membership records</li>
+            <li>Administrative purposes</li>
+            <li>Legal obligations</li>
+            <li>Security requirements</li>
+          </ul>
         </LegalSection>
 
         <LegalSection number="11" title="Changes to Privacy Policy">
@@ -129,11 +169,11 @@ export default function PrivacyPolicy() {
         <LegalSection number="12" title="Contact Information">
           <p className="font-semibold text-ink-900">Vanchit Bahujan Aaghadi (VBA)</p>
           <p>
-            Registered Office: <PlaceholderNote>Address to be added</PlaceholderNote>
+            Registered Office: <PlaceholderNote>Insert Address</PlaceholderNote>
           </p>
           <p>Email: support@vbaconnect.in</p>
           <p>
-            Contact: <PlaceholderNote>Phone number to be added</PlaceholderNote>
+            Contact: <PlaceholderNote>XXXXXXXXXX</PlaceholderNote>
           </p>
           <p className="mt-2">
             You can also reach us through our{' '}

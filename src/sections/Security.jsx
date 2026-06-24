@@ -84,8 +84,8 @@ function ShieldIllustration() {
             />
             <defs>
               <linearGradient id="shieldGrad" x1="8" y1="4" x2="92" y2="116" gradientUnits="userSpaceOnUse">
-                <stop stopColor="#3B5EDB" />
-                <stop offset="1" stopColor="#162C68" />
+                <stop stopColor="#F0782F" />
+                <stop offset="1" stopColor="#A74807" />
               </linearGradient>
             </defs>
           </svg>

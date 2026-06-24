@@ -6,8 +6,8 @@ import { motion } from 'framer-motion'
  * subtle section dividers instead of generic gradient blobs.
  */
 export default function LedgerLine({ nodes = 4, className = '', light = false }) {
-  const dotColor = light ? '#3B5EDB' : '#1E3A8A'
-  const lineColor = light ? 'rgba(255,255,255,0.18)' : 'rgba(11,30,61,0.1)'
+  const dotColor = light ? '#F0782F' : '#D35B09'
+  const lineColor = light ? 'rgba(255,255,255,0.18)' : 'rgba(211,91,9,0.12)'
 
   return (
     <div className={`relative flex flex-col items-center ${className}`} aria-hidden="true">

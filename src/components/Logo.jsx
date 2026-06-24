@@ -11,15 +11,10 @@ export default function Logo({ dark = false }) {
         fill="none"
         className="shrink-0"
       >
-        <rect width="34" height="34" rx="9" fill="#1E3A8A" />
-        <path
-          d="M9 17.5L14 22.5L25 11"
-          stroke="white"
-          strokeWidth="2.6"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-        <circle cx="25" cy="11" r="1.6" fill="#0FA968" className="group-hover:fill-white transition-colors" />
+        <rect width="34" height="34" rx="9" fill={dark ? '#ffffff' : '#0F3B70'} />
+        <path d="M8 18c4-2.5 14-2.5 18 0" stroke={dark ? '#0F3B70' : '#ffffff'} strokeWidth="2" strokeLinecap="round" />
+        <path d="M12 19v5M16 19v7M20 19v5M24 19v7" stroke="#F9C20D" strokeWidth="2.5" strokeLinecap="round" />
+        <circle cx="19" cy="16" r="2" fill="#0FA968" />
       </svg>
       <span className={`font-display text-[19px] font-semibold tracking-tight ${textColor}`}>
         VBA <span className="text-royal-400">Connect</span>

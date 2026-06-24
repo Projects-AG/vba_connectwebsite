@@ -11,13 +11,13 @@ export default {
           700: '#1C3661',
         },
         royal: {
-          DEFAULT: '#1E3A8A',
-          50: '#EEF2FC',
-          100: '#DCE5F8',
-          400: '#3B5EDB',
-          500: '#2C4BC4',
-          600: '#1E3A8A',
-          700: '#162C68',
+          DEFAULT: '#D35B09',
+          50: '#FFF2E6',
+          100: '#FBDDCC',
+          400: '#F39045',
+          500: '#EA7629',
+          600: '#D35B09',
+          700: '#A74807',
         },
         mist: {
           DEFAULT: '#E8EDF7',
@@ -59,8 +59,8 @@ export default {
         glass: '0 8px 32px 0 rgba(11, 30, 61, 0.1)',
       },
       backgroundImage: {
-        'grad-brand': 'linear-gradient(135deg, #1E3A8A 0%, #2C4BC4 50%, #3B5EDB 100%)',
-        'grad-radial-soft': 'radial-gradient(circle at 30% 20%, rgba(59,94,219,0.12), transparent 60%)',
+        'grad-brand': 'linear-gradient(135deg, #D35B09 0%, #EA7629 50%, #F0782F 100%)',
+        'grad-radial-soft': 'radial-gradient(circle at 30% 20%, rgba(224,86,15,0.12), transparent 60%)',
       },
       animation: {
         'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',

@@ -27,11 +27,7 @@ export default function Navbar() {
         initial={{ y: -100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-        className={`fixed top-0 inset-x-0 z-50 transition-all duration-500 ${
-          scrolled
-            ? 'bg-white/75 backdrop-blur-xl shadow-soft border-b border-ink-900/[0.05]'
-            : 'bg-transparent border-b border-transparent'
-        }`}
+        className="fixed top-0 inset-x-0 z-50 bg-white border-b border-ink-900/10 shadow-soft"
       >
         <nav className="max-w-7xl mx-auto px-5 sm:px-8 h-[72px] flex items-center justify-between">
           <PartyMasthead />

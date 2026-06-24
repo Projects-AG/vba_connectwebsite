@@ -1,4 +1,5 @@
 import PageWrapper from '../components/PageWrapper'
+import HomeBanner from '../sections/HomeBanner'
 import LeaderHero from '../sections/LeaderHero'
 import LeadershipCarousel from '../sections/LeadershipCarousel'
 import NewsFeed from '../sections/NewsFeed'
@@ -12,6 +13,7 @@ import MembershipCTA from '../sections/MembershipCTA'
 export default function Home() {
   return (
     <PageWrapper>
+      <HomeBanner />
       <LeaderHero />
       <LeadershipCarousel />
       <NewsFeed />

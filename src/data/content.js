@@ -175,4 +175,6 @@ export const NAV_LINKS = [
   { label: 'News', to: '/news' },
   { label: 'VBA Connect App', to: '/app' },
   { label: 'Contact', to: '/contact' },
+  { label: 'Privacy Policy', to: '/privacy-policy' },
+  { label: 'Terms', to: '/terms' },
 ]
