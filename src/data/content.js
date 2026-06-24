@@ -25,6 +25,40 @@ export const LEADER = {
     'Nahi bhi ho sankhya bhari, phir bhi milegi hissedari — even where our numbers are few, our share in power will be claimed.',
 }
 
+// Leadership carousel — real names sourced from vanchit.org's About Us page.
+// `photo: null` renders an initials placeholder; replace with a real image
+// path once official photographs are provided.
+export const LEADERSHIP = [
+  {
+    name: 'Prakash Ambedkar',
+    role: 'Founder & President',
+    initials: 'PA',
+    photo: null,
+    bio: 'Founded VBA on 20 March 2018, uniting nearly 100 progressive organisations under one Phule–Ambedkarite banner.',
+  },
+  {
+    name: 'Rekha Thakur',
+    role: 'President, Vanchit Mahila Aghadi',
+    initials: 'RT',
+    photo: null,
+    bio: 'Leads the campaign for a fair share in the power and wealth of the nation for women.',
+  },
+  {
+    name: 'Nilesh Vishwakarma',
+    role: 'President, Vanchit Yuva Aghadi',
+    initials: 'NV',
+    photo: null,
+    bio: 'Brings youth from every village and home into the Vanchit movement across Maharashtra.',
+  },
+  {
+    name: 'Dr. Shahji Chandanshive',
+    role: 'Committee, Phule Ambedkar Vidvat Sabha',
+    initials: 'SC',
+    photo: null,
+    bio: 'Carries forward the Phule–Ambedkarite tradition of debate and discussion within the movement.',
+  },
+]
+
 export const PHILOSOPHY = {
   eyebrow: 'Our Philosophy',
   title: 'A Phule–Ambedkarite Vision for a Fair Republic',

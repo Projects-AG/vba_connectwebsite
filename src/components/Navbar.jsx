@@ -70,7 +70,7 @@ export default function Navbar() {
               as="a"
               target="_blank"
               rel="noopener noreferrer"
-              className="!py-2.5 !px-5 !text-[13.5px]"
+              className="!py-2.5 !px-5 !text-[13.5px] !bg-accent-600 hover:!bg-accent-700 !shadow-[0_8px_24px_-6px_rgba(224,86,15,0.4)]"
             >
               Join VBA
             </Button>
@@ -134,7 +134,7 @@ export default function Navbar() {
                   as="a"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full"
+                  className="w-full !bg-accent-600 hover:!bg-accent-700"
                 >
                   Join VBA
                 </Button>

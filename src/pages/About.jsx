@@ -5,7 +5,8 @@ import SectionTitle from '../components/SectionTitle'
 import Philosophy from '../sections/Philosophy'
 import HistoryTimeline from '../sections/HistoryTimeline'
 import Wings from '../sections/Wings'
-import { LEADER, ORG } from '../data/content'
+import LeadershipCarousel from '../sections/LeadershipCarousel'
+import { ORG } from '../data/content'
 
 export default function About() {
   return (
@@ -42,36 +43,7 @@ export default function About() {
         </div>
       </section>
 
-      {/* Leader block */}
-      <section className="py-20 sm:py-24 bg-white">
-        <div className="max-w-5xl mx-auto px-5 sm:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 24 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-60px' }}
-            transition={{ duration: 0.6 }}
-            className="grid sm:grid-cols-[auto_1fr] gap-7 items-start bg-mist-50 rounded-3xl p-8 sm:p-10 border border-ink-900/[0.05]"
-          >
-            <div className="w-20 h-20 rounded-full bg-royal-600 flex items-center justify-center font-display text-[26px] font-semibold text-white shrink-0">
-              PA
-            </div>
-            <div>
-              <h2 className="font-display text-[22px] font-semibold text-ink-900">
-                {LEADER.name}
-              </h2>
-              <p className="text-[14px] text-royal-600 font-medium mt-0.5">
-                {LEADER.title}
-              </p>
-              <p className="mt-4 text-[15px] text-ink-700/70 leading-relaxed">
-                Founded Vanchit Bahujan Aaghadi on {ORG.founded}, uniting
-                nearly 100 progressive parties and social organisations under
-                a single banner committed to fair representation for
-                communities long excluded from Indian politics.
-              </p>
-            </div>
-          </motion.div>
-        </div>
-      </section>
+      <LeadershipCarousel />
 
       <Philosophy />
       <HistoryTimeline />
