@@ -45,9 +45,5 @@ export function LegalSection({ number, title, children }) {
 }
 
 export function PlaceholderNote({ children }) {
-  return (
-    <span className="inline-flex items-center px-2 py-0.5 rounded-md bg-amber-50 border border-amber-200 text-amber-700 text-[13.5px] font-medium">
-      {children}
-    </span>
-  )
+  return <>{children}</>
 }

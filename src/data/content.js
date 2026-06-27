@@ -8,7 +8,7 @@ export const ORG = {
   founder: 'Prakash Ambedkar',
   founded: '20 March 2018',
   ideology: 'Phule–Ambedkarite',
-  email: 'info@vanchit.org',
+  email: 'supoort@vanchit.org',
   donateUrl: 'https://vbabharat.org/donate/',
   membershipUrl: 'https://vbabharat.org/join-vba/',
   office: 'First Floor, Thackersey House, Ballard Estate, Fort, Mumbai, Maharashtra 400001',

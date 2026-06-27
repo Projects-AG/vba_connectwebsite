@@ -27,12 +27,12 @@ export default function Terms() {
             <li><span className="font-semibold text-ink-900">Country:</span> India</li>
             <li>
               <span className="font-semibold text-ink-900">Registered Office Address:</span>{' '}
-              <PlaceholderNote>Insert VBA Registered Address</PlaceholderNote>
+              <PlaceholderNote>First Floor, Thackersey House, Ballard Estate, Fort, Mumbai, Maharashtra 400001</PlaceholderNote>
             </li>
             <li><span className="font-semibold text-ink-900">Official Email:</span> support@vbaconnect.in</li>
             <li>
               <span className="font-semibold text-ink-900">Official Contact Number:</span>{' '}
-              <PlaceholderNote>Insert Contact Number</PlaceholderNote>
+              <PlaceholderNote>+91 84325 51414</PlaceholderNote>
             </li>
           </ul>
         </LegalSection>
@@ -136,11 +136,11 @@ export default function Terms() {
         <LegalSection number="18" title="Contact Information">
           <p className="font-semibold text-ink-900">Vanchit Bahujan Aaghadi (VBA)</p>
           <p>
-            Registered Office: <PlaceholderNote>Insert Address</PlaceholderNote>
+            Registered Office: <PlaceholderNote>First Floor, Thackersey House, Ballard Estate, Fort, Mumbai, Maharashtra 400001</PlaceholderNote>
           </p>
           <p>Email: support@vbaconnect.in</p>
           <p>
-            Phone: <PlaceholderNote>XXXXXXXXXX</PlaceholderNote>
+            Phone: <PlaceholderNote>+91 84325 51414</PlaceholderNote>
           </p>
           <p className="mt-2">
             You can also reach us through our{' '}
