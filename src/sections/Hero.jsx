@@ -62,7 +62,7 @@ export default function Hero() {
             className="mt-9 flex flex-wrap items-center gap-4"
           >
             <Button variant="primary" icon={ArrowRight} className="!px-7 !py-3.5 !text-[15px]">
-              Download App
+            <a href="http://qrto.org/bDIRnb">  Download App</a>
             </Button>
             <Button variant="ghost" className="!px-7 !py-3.5 !text-[15px]">
               Learn More
